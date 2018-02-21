@@ -1,5 +1,3 @@
-__author__ = "Evren Aksuna"
-
 while True:
     print("I am human: 1")
     print("I am created by someone: 2")
