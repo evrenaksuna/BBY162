@@ -1,3 +1,4 @@
+#saniyeyi dk,sa,gun vs çeviren
 def timechanger(zaman):
     if zaman < 60:
          print("zaman :%d saniye"%(zaman))
