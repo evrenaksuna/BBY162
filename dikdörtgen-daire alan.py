@@ -1,4 +1,4 @@
-def dortgen_alan_hesapla_vl(a,b):
+def dortgen_alan_hesapla_vl(a,b): 
     alan = a*b
     print("alan=", alan)
 a = int(input("Dikdörtgenin kısa kenarı:"))
@@ -12,7 +12,8 @@ pisayisi= 3.14
 r= int(input("Dairenin yarıçapı="))
 daire_alan_hesapla_v1(pisayisi,r)
 
-def dortgen_alan_hesapla_v2(a,b):
+##############################################
+def dortgen_alan_hesapla_v2(a,b): #girdinin karesi alınsın istendi
     alan = a**2 * b**2
     print("alan=", alan)
 a = int(input("Dikdörtgenin kısa kenarı:"))
