@@ -1,6 +1,6 @@
 import random
 import sys
-file = open('kelimelistesi.py', "r")
+file = open('kelimelistesi.txt', "r")
 sozluk = file.read().split()
 file.close()
 
