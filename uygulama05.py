@@ -84,7 +84,7 @@ def varyok(harf, sayac):
             varyok(a, sayac)
         if(sayac>6):
             print(f)
-            print("Oyunu kaybettiniz")
+            print("Oyunu kaybettiniz. Doğru cevap: " + kelime)
             sys.exit()
 
 
