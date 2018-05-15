@@ -11,7 +11,7 @@ class merhaba:
         anasayfa.geometry("500x750+100+0")
         anasayfa.title("Simon Hafıza Oyunu")
         anasayfa.configure(background="maroon")
-        self.foto = Image.open("C:\\Users\\casper\\Desktop\\hello.jpg")
+        self.foto = Image.open("C:\\Users\\casper\\Desktop\\final_snoopy.jpg")
         self.tkimage = ImageTk.PhotoImage(self.foto)
         self.resim = Label(root, image=self.tkimage)
         self.resim.pack()
